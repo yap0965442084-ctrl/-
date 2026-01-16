@@ -1,20 +1,65 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# HR Pro Toolbox (HR 專業工具箱)
 
-# Run and deploy your AI Studio app
+[![Deploy to GitHub Pages](https://github.com/yap0965442084-ctrl/-/actions/workflows/deploy.yml/badge.svg)](https://github.com/yap0965442084-ctrl/-/actions/workflows/deploy.yml)
 
-This contains everything you need to run your app locally.
+A professional React-based toolkit designed for Human Resources professionals to streamline event management tasks like lucky draws and group generation.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1udMtjP9aZ0nBi9fmt_JRCWM5PZzaGPMV
+## Features
 
-## Run Locally
+- **Participant Management**: Easily import lists via CSV, TXT, or manual entry.
+- **Lucky Draw**: Interactive and exciting lucky draw system with visual animations.
+- **Group Generator**: Automatically organize participants into various group configurations.
+- **Modern UI**: Clean, responsive interface built with Tailwind CSS and React.
 
-**Prerequisites:**  Node.js
+## Getting Started
 
+### Prerequisites
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yap0965442084-ctrl/-.git
+   cd -
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:3000`.
+
+## Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the app for production to the `dist` folder.
+- `npm run preview`: Locally preview the production build.
+
+## Deployment
+
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+1. Go to your repository **Settings**.
+2. Navigate to **Pages** (under Code and automation).
+3. Under **Build and deployment**, select **GitHub Actions** as the source.
+4. Push your changes to the `main` branch. The workflow will automatically build and deploy your site.
+
+## Tech Stack
+
+- **Framework**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Language**: TypeScript
+
+## License
+
+This project is licensed under the MIT License.

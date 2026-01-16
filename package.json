@@ -1,7 +1,11 @@
 {
-  "name": "copy-of-hr-pro-toolbox",
+  "name": "hr-pro-toolbox",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Professional HR management tools for lucky draws and group generation.",
+  "author": "HR Pro Team",
+  "license": "MIT",
+  "homepage": "./",
   "type": "module",
   "scripts": {
     "dev": "vite",
